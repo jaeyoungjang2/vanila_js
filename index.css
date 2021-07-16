@@ -7,6 +7,12 @@ h1 {
   transition: color 0.3s ease-in-out;
 }
 
+#title {
+  color: white;
+  display: flex;
+  top: 100px;
+}
+
 .clicked {
   color: #7f8c8d;
 }
@@ -41,4 +47,15 @@ h1 {
   to {
     opacity: 1;
   }
+}
+
+.main-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-clock__time {
+  color: white;
+  font-size: 100px;
 }
